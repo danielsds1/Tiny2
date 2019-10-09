@@ -15,52 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Downloads\loucomp\ANALYZE.C">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Downloads\loucomp\CGEN.C">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Downloads\loucomp\CODE.C">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Downloads\loucomp\MAIN.C">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Downloads\loucomp\PARSE.C">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Downloads\loucomp\SCAN.C">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Downloads\loucomp\SYMTAB.C">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Downloads\loucomp\UTIL.C">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\loucomp\ANALYZE.C" />
+    <ClCompile Include="..\..\..\Downloads\loucomp\CGEN.C" />
+    <ClCompile Include="..\..\..\Downloads\loucomp\CODE.C" />
+    <ClCompile Include="..\..\..\Downloads\loucomp\MAIN.C" />
+    <ClCompile Include="..\..\..\Downloads\loucomp\PARSE.C" />
+    <ClCompile Include="..\..\..\Downloads\loucomp\SCAN.C" />
+    <ClCompile Include="..\..\..\Downloads\loucomp\SYMTAB.C" />
+    <ClCompile Include="..\..\..\Downloads\loucomp\UTIL.C" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Downloads\loucomp\SYMTAB.H">
-      <Filter>Arquivos de Origem</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Downloads\loucomp\ANALYZE.H">
-      <Filter>Arquivos de Origem</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Downloads\loucomp\CGEN.H">
-      <Filter>Arquivos de Origem</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Downloads\loucomp\CODE.H">
-      <Filter>Arquivos de Origem</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Downloads\loucomp\GLOBALS.H">
-      <Filter>Arquivos de Origem</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Downloads\loucomp\PARSE.H">
-      <Filter>Arquivos de Origem</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Downloads\loucomp\SCAN.H">
-      <Filter>Arquivos de Origem</Filter>
-    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\loucomp\ANALYZE.H" />
+    <ClInclude Include="..\..\..\Downloads\loucomp\CGEN.H" />
+    <ClInclude Include="..\..\..\Downloads\loucomp\CODE.H" />
+    <ClInclude Include="..\..\..\Downloads\loucomp\GLOBALS.H" />
+    <ClInclude Include="..\..\..\Downloads\loucomp\PARSE.H" />
+    <ClInclude Include="..\..\..\Downloads\loucomp\SCAN.H" />
+    <ClInclude Include="..\..\..\Downloads\loucomp\SYMTAB.H" />
   </ItemGroup>
 </Project>
