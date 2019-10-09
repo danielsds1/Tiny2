@@ -18,6 +18,31 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ANALYZE.C" />
+    <ClCompile Include="CGEN.C" />
+    <ClCompile Include="CODE.C" />
+    <ClCompile Include="MAIN.C" />
+    <ClCompile Include="PARSE.C" />
+    <ClCompile Include="SCAN.C" />
+    <ClCompile Include="SYMTAB.C" />
+    <ClCompile Include="UTIL.C" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ANALYZE.H" />
+    <ClInclude Include="CGEN.H" />
+    <ClInclude Include="CODE.H" />
+    <ClInclude Include="GLOBALS.H" />
+    <ClInclude Include="PARSE.H" />
+    <ClInclude Include="SCAN.H" />
+    <ClInclude Include="SYMTAB.H" />
+    <ClInclude Include="UTIL.H" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MAKEFILE" />
+    <None Include="README.DOS" />
+    <None Include="SAMPLE.TNY" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{BF75E103-7CE4-40A4-BE1C-F78543039BF5}</ProjectGuid>
@@ -151,25 +176,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\Downloads\loucomp\ANALYZE.C" />
-    <ClCompile Include="..\..\..\Downloads\loucomp\CGEN.C" />
-    <ClCompile Include="..\..\..\Downloads\loucomp\CODE.C" />
-    <ClCompile Include="..\..\..\Downloads\loucomp\MAIN.C" />
-    <ClCompile Include="..\..\..\Downloads\loucomp\PARSE.C" />
-    <ClCompile Include="..\..\..\Downloads\loucomp\SCAN.C" />
-    <ClCompile Include="..\..\..\Downloads\loucomp\SYMTAB.C" />
-    <ClCompile Include="..\..\..\Downloads\loucomp\UTIL.C" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\Downloads\loucomp\ANALYZE.H" />
-    <ClInclude Include="..\..\..\Downloads\loucomp\CGEN.H" />
-    <ClInclude Include="..\..\..\Downloads\loucomp\CODE.H" />
-    <ClInclude Include="..\..\..\Downloads\loucomp\GLOBALS.H" />
-    <ClInclude Include="..\..\..\Downloads\loucomp\PARSE.H" />
-    <ClInclude Include="..\..\..\Downloads\loucomp\SCAN.H" />
-    <ClInclude Include="..\..\..\Downloads\loucomp\SYMTAB.H" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

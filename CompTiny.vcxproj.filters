@@ -15,22 +15,60 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Downloads\loucomp\ANALYZE.C" />
-    <ClCompile Include="..\..\..\Downloads\loucomp\CGEN.C" />
-    <ClCompile Include="..\..\..\Downloads\loucomp\CODE.C" />
-    <ClCompile Include="..\..\..\Downloads\loucomp\MAIN.C" />
-    <ClCompile Include="..\..\..\Downloads\loucomp\PARSE.C" />
-    <ClCompile Include="..\..\..\Downloads\loucomp\SCAN.C" />
-    <ClCompile Include="..\..\..\Downloads\loucomp\SYMTAB.C" />
-    <ClCompile Include="..\..\..\Downloads\loucomp\UTIL.C" />
+    <ClCompile Include="ANALYZE.C">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="CGEN.C">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="CODE.C">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="MAIN.C">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PARSE.C">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="SCAN.C">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="SYMTAB.C">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="UTIL.C">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Downloads\loucomp\ANALYZE.H" />
-    <ClInclude Include="..\..\..\Downloads\loucomp\CGEN.H" />
-    <ClInclude Include="..\..\..\Downloads\loucomp\CODE.H" />
-    <ClInclude Include="..\..\..\Downloads\loucomp\GLOBALS.H" />
-    <ClInclude Include="..\..\..\Downloads\loucomp\PARSE.H" />
-    <ClInclude Include="..\..\..\Downloads\loucomp\SCAN.H" />
-    <ClInclude Include="..\..\..\Downloads\loucomp\SYMTAB.H" />
+    <ClInclude Include="ANALYZE.H">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="CGEN.H">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="CODE.H">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="GLOBALS.H">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="PARSE.H">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SCAN.H">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SYMTAB.H">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="UTIL.H">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MAKEFILE" />
+    <None Include="README.DOS" />
+    <None Include="SAMPLE.TNY" />
   </ItemGroup>
 </Project>
