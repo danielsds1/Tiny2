@@ -74,6 +74,7 @@ static struct
 		{"read",READ},
 		{"write",WRITE},
 		{"while",WHILE},
+		{"do",DO},
 		{"endwhile",ENDWHILE} };
 
 /* lookup an identifier to see if it is a reserved word */
