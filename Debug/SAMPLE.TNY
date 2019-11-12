@@ -1,0 +1,7 @@
+read x;
+fact:=1;
+while 0<x do {test comment}
+	fact:=fact*x;
+	x:=x-1
+endwhile;
+write fact
