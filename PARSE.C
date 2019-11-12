@@ -98,7 +98,8 @@ TreeNode* if_stmt(void)
 	return t;
 
 
-}TreeNode* while_stmt(void)
+}
+TreeNode* while_stmt(void)
 {
 	TreeNode* t = newStmtNode(WhileK);
 	match(WHILE);
@@ -107,6 +108,7 @@ TreeNode* if_stmt(void)
 	if (t != NULL) t->child[1] = stmt_sequence();
 	match(ENDWHILE);
 	return t;
+
 }
 
 TreeNode* repeat_stmt(void)

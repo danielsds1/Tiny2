@@ -70,5 +70,17 @@
     <None Include="MAKEFILE" />
     <None Include="README.DOS" />
     <None Include="SAMPLE.TNY" />
+    <None Include="Debug\RUNTM.bat">
+      <Filter>Arquivos de Recurso</Filter>
+    </None>
+    <None Include="Debug\RUNTNY.bat">
+      <Filter>Arquivos de Recurso</Filter>
+    </None>
+    <None Include="Debug\SAMPLE.TM">
+      <Filter>Arquivos de Recurso</Filter>
+    </None>
+    <None Include="Debug\SAMPLE.TNY">
+      <Filter>Arquivos de Recurso</Filter>
+    </None>
   </ItemGroup>
 </Project>

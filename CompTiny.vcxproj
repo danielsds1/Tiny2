@@ -39,6 +39,10 @@
     <ClInclude Include="UTIL.H" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Debug\RUNTM.bat" />
+    <None Include="Debug\RUNTNY.bat" />
+    <None Include="Debug\SAMPLE.TM" />
+    <None Include="Debug\SAMPLE.TNY" />
     <None Include="MAKEFILE" />
     <None Include="README.DOS" />
     <None Include="SAMPLE.TNY" />
